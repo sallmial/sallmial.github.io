@@ -1,3 +1,26 @@
-title: My Portfolio
-description: Welcome to my GitHub Pages portfolio site
-theme: jekyll-theme-cayman  # or any other supported theme
+# Site settings
+title: Salma Amr Portfolio
+email: yourname@email.com
+description: >- # this means to ignore newlines until "theme"
+  Computer Science student portfolio showcasing projects and skills in Power Platform and data analysis.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://your-username.github.io" # the base hostname & protocol for your site
+
+# Build settings
+theme: jekyll-theme-cayman  # A clean, minimal theme supported by GitHub Pages
+plugins:
+  - jekyll-feed  # optional plugin for RSS feed
+
+# Author info (used in some themes)
+author:
+  name: Salma Amr
+  email: yourname@email.com
+  github_username: your-username
+
+# Optional: social links
+social:
+  linkedin: https://linkedin.com/in/yourprofile
+  github: https://github.com/your-username
+
+# Markdown processor
+markdown: kramdown
